@@ -66,6 +66,20 @@ def reduce_to_all_true(array)
   status
 end
 
+def reduce_to_any_true(array)
+  i = 0
+  status = false 
+
+  while i < array.length do 
+    if array[i]
+      status = true
+    end
+
+    i += 1
+  end
+
+  status
+end
 
 
   
