@@ -50,8 +50,18 @@ def reduce_to_total(array, total = 0)
 
   total # will have the total
 end
-
 def reduce_to_all_true(array)
-  array
+  i = 0
+  status = true 
+
+  while i < array.length do 
+    if !array[i]
+      status = false
+    end
+
+    i += 1
+  end
+
+  status
 end
   
