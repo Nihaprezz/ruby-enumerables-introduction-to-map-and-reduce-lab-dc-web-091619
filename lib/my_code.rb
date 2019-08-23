@@ -50,6 +50,7 @@ def reduce_to_total(array, total = 0)
 
   total # will have the total
 end
+
 def reduce_to_all_true(array)
   i = 0
   status = true 
@@ -64,4 +65,5 @@ def reduce_to_all_true(array)
 
   status
 end
+
   
